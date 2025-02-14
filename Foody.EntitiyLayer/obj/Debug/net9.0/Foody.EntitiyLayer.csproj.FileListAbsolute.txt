@@ -1,0 +1,14 @@
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\bin\Debug\net9.0\Foody.EntitiyLayer.deps.json
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\bin\Debug\net9.0\Foody.EntitiyLayer.runtimeconfig.json
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\bin\Debug\net9.0\Foody.EntitiyLayer.dll
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\bin\Debug\net9.0\Foody.EntitiyLayer.pdb
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.csproj.AssemblyReference.cache
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.AssemblyInfoInputs.cache
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.AssemblyInfo.cs
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.csproj.CoreCompileInputs.cache
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.dll
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\refint\Foody.EntitiyLayer.dll
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.pdb
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\Foody.EntitiyLayer.genruntimeconfig.cache
+C:\Users\gokhan\Desktop\Foddy\Foody.EntitiyLayer\obj\Debug\net9.0\ref\Foody.EntitiyLayer.dll
