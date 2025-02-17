@@ -1,4 +1,4 @@
-﻿using Foody.EntitiyLayer.Concrete;
+﻿using Foody.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,5 @@ namespace Foody.DataAccessLayer.Abstract
 {
     public interface IAboutDal : IGenericDal<About>
     {
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Foody.DataAccessLayer.Abstract;
+using Foody.DataAccessLayer.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,16 @@ namespace Foody.DataAccessLayer.Repositories
 {
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
-        private readonly Context.FoodyContext _context;
-
-        public GenericRepository(Context.FoodyContext context)
+        private readonly FoodyContext _context;
+        public GenericRepository(FoodyContext context)
         {
             _context = context;
         }
+
         public void Delete(int id)
         {
-           var vaslue = _context.Set<T>().Find(id);
-            _context.Set<T>().Remove(vaslue);
+            var value = _context.Set<T>().Find(id);
+            _context.Set<T>().Remove(value);
             _context.SaveChanges();
         }
 

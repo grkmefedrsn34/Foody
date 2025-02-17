@@ -1,15 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Foody.EntitiyLayer.Concrete;
+﻿using Foody.EntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Context
 {
-    public class FoodyContext : DbContext
+    public class FoodyContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Foody;Integrated Security=True");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-R7AR1ND;initial catalog=FoodyDb;integrated security=true");
         }
-
         public DbSet<About> Abouts { get; set; }
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -17,7 +21,7 @@ namespace Foody.DataAccessLayer.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Slider> Sliders { get; set; }
-        public DbSet<SocialMedai> SocialMedais { get; set; }
-
+        public DbSet<SocialMedia> SocialMedias { get; set; }
+        public DbSet<AboutItem> AboutItems { get; set; }
     }
 }
